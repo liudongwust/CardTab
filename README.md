@@ -50,4 +50,4 @@ inner class Pager {
 
 ![img.png](pics/img.png)
 
-![1.gif](pics/1.gif){ width=200px }
+<img src="pics/1.gif" alt="描述" width="300"/>
