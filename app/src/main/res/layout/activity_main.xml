@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.wustfly.cardtab.Tab
+            android:id="@+id/tab"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#F5F5F5"
+            android:padding="4dp"
+            app:card_radius="18dp"
+            app:tab_indicator_color="@android:color/white"
+            app:tab_indicator_radius="14dp"
+            app:tab_select_tx_color="#E09FA7"
+            app:tab_select_tx_size="28sp"
+            app:tab_select_tx_font="@font/alibaba_puhuiti_105_heavy_105_heavy"
+            app:tab_titles="秋风,明月"
+            app:tab_unselect_tx_color="#7DCBD5"
+            app:tab_unselect_tx_size="28sp"
+            app:tab_unselect_tx_font="@font/alibaba_puhuiti_105_heavy_105_heavy" />
+
+    </FrameLayout>
+
+
+</layout>

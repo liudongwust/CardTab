@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <data>
+
+    </data>
+
+    <com.wustfly.cardviews.FrameCard
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:card_linear_gradient="0,2,#7DCBD5,#E09FA7,2,0,1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/alibaba_puhuiti_105_heavy_105_heavy"
+            android:text="明\n月"
+            android:textSize="188sp" />
+
+    </com.wustfly.cardviews.FrameCard>
+
+
+</layout>
